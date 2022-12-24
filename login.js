@@ -5,7 +5,7 @@ function validate()
 
     if(username=="CoopBlakley1234"&& password=="matbyf-3keqho-wejCug")
     {
-        open(http://cogitatorius.blue/formdata/herfy6-dazcer-wihjyF)
+        open(http://herfy6-dazcer-wihjyF.cogitatorius.blue)
     }
     else
     {
