@@ -1,14 +1,14 @@
 function validate() 
 {  
-    var username=document.getElementById("username").value;  
-    var password=document.getElementById("password").value;  
-    if(username=="CoopBlakley1234"&& password=="1234")  
-    {   
-      alert("Login Successful");
-      return false;
-    } 
-    else 
-    {  
-      alert("Username/Password Incorrect. Try again.");  
-    }  
-  }  
+    var user = document.querySelector('#user');  
+    user.addEventListener('keyup', function(){
+        var u_times = document.querySelector('.u_times');
+        var u_check = document.querySelector('.u_check');
+        if (user == 1234) {
+            alert('Success');
+            return false;
+        } else {
+            alert('Wrong');
+        }
+    })
+}

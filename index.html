@@ -6,17 +6,17 @@
         <meta charset="UTF-8">
         <title>Form Data</title>
         <link rel="stylesheet" href="main.css" type="text/css">
-        <script src="login.js"> </script>
+        <script type="text/javascript" src="login.js"> </script>
     </head>
     <body>
         <h1>Form Data Collection</h1>
         <p>Enter data below to access site:</p>
         <form class="login" action="index.html" method="post">
             <label for="name">Username: </label>
-            <input type="text" name="username" id="username" required autocomplete="on" placeholder="Username" autofocus>
+            <input type="text" name="username" id="user" required autocomplete="on" placeholder="Username" autofocus>
             <br>
             <label for="password">Password: </label>
-            <input type="password" name="password" id="password" required placeholder="Password">
+            <input type="password" name="password" id="pass" required placeholder="Password">
             <br>
             <button type="submit" onclick="validate()">Submit</button>
             <button type="reset">Clear</button>
