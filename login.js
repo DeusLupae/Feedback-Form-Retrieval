@@ -3,7 +3,7 @@ function validate() {
     var password = document.getElementById("password");  
     if(username == "CoopBlakley1234" && password == "matbyf-3keqho-wejCug")  
     {   
-      open(http://herfy6-dazcer-wihjyf.cogitatorius.blue);  
+      open(https://www.youtube.com);  
     } else {  
       alert("Username/Password Incorrect. Try again.");  
     }  
